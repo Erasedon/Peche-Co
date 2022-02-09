@@ -1,3 +1,4 @@
+
 *{
     overflow-x: hidden;
 }
@@ -141,3 +142,392 @@
     opacity: 1;
     cursor: pointer;
 }
+
+/***PECHE co footer  TEDDY***/
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 h2 h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#section5{
+    background-color: #F1F2F6;
+    width: 100%;
+    height: 500px;
+  }
+  #section5 i{
+    color: #005f89;
+    font-size: 80px;
+  }
+  
+  #section5 li{
+    list-style: none;
+  
+  }
+  #section5 ul{
+    padding: 0;
+  }
+  
+  .footer-icone{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,150px);
+    padding-top: 50px;
+    padding-top:50px;
+    text-align: center;
+    column-gap: 20px;
+  }
+  
+  .icone-1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+  }
+  
+  .icone-2{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    
+  }
+  
+  .icone-3{
+    grid-row: 1/2;
+    grid-column: 4/5;
+    
+  }
+  
+  .icone-4{
+    grid-row: 1/2;
+    grid-column: 5/6;
+    
+  }
+  
+  .logo-reseau{
+    grid-row: 2/3;
+    grid-column: 2/6;
+  }
+  
+  .logo-reseau li{
+    display: inline;
+  }
+  
+  #section5 .logo-reseau li i{
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  
+  .footer-mention{
+    grid-row: 3/4;
+    grid-column: 2/6;
+  }
+  
+  .footer-mention li{
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  @media screen and (max-width:1051px){
+    .footer-icone{
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      grid-template-rows: repeat(5,100px);
+    }
+    #section5{
+        background-color: #F1F2F6;
+        width: 100%;
+        height: 100%;
+      }
+    .icone-1{
+      grid-column: 2/3;
+      grid-row: 1/2;
+      
+    }
+    
+    .icone-2{
+      grid-row: 1/2;
+      grid-column: 5/6;
+      
+    }
+    
+    .icone-3{
+      grid-row: 3/4;
+      grid-column: 2/3;
+      
+    }
+    
+    .icone-4{
+      grid-row: 3/4;
+      grid-column: 5/6;
+      
+    }
+    
+    .logo-reseau{
+      grid-row: 4/5;
+      grid-column: 1/7;
+      align-self: end;
+    }
+    .footer-mention{
+      grid-row: 5/6;
+      grid-column: 2/6;
+      align-self: end;
+    }
+  
+  }
+  
+  #section5 .logo-reseau i{
+    cursor: pointer;
+  }
+  
+  #section5 .logo-reseau i:hover{
+    cursor: pointer;
+    color: #a0c5cf ;
+  }
+  
+  .footer-mention li:hover{
+    color: #a0c5cf;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width:600px){
+  
+    #section5{
+      background-color: #F1F2F6;
+      width: 100%;
+      height: 100%;
+    }
+    .footer-icone{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(6,100px);
+      row-gap: 25px;
+    }
+  
+    .icone-1{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      
+    }
+    
+    .icone-2{
+      grid-row: 2/3;
+      grid-column: 1/2;
+      
+    }
+    
+    .icone-3{
+      grid-row: 3/4;
+      grid-column: 1/2;
+      
+    }
+    
+    .icone-4{
+      grid-row: 4/5;
+      grid-column: 1/2;
+      
+    }
+    
+    .logo-reseau{
+      grid-row: 5/6;
+      grid-column: 1/2;
+      align-self: end;
+    }
+    .footer-mention{
+      grid-row: 6/7;
+      grid-column: 1/2;
+      align-self: end;
+    }
+  }
+
+  #section1{
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+
+  .quisommesnous{
+    
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quisommesnous h1{
+      text-align: center;
+  }
+
+  .quisommesnous p{
+      line-height: 1.6;
+      font-size: 19px;
+  }
+
+  b{
+      color: #005f89 ;
+  }
+
+  .bouton-section1{
+    width: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    background-color: #005f89 ;
+    border-radius: 7px;
+    border: 1px solid #0093b7;
+    font-size: 15px;
+    color:#fff;
+    font-weight: 600;
+  }
+
+  .bouton-section1:hover{
+      background-color: #0093b7  ;
+      color: #fff;
+  }
+  @media screen and (max-width:600px){
+    #section1 p{
+      text-align: center;
+      font-size: 17px;
+    }
+  }
+
+/* Nav */
+#navbar {
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(236, 240, 241, 0.7); /* = #ecf0f1 + opacity */
+    backdrop-filter: blur(4px);
+    color: #005f89;
+    z-index: 999;
+}
+
+#nav-logo {
+    height: 50px;
+    width: auto;
+    margin: .5rem;
+    position: relative;
+    top: 0;
+    transform: translateX(0%);
+    transition: transform .5s ease-out;
+}
+
+#nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#nav-links li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#nav-links li a {
+    text-decoration: none;
+    color: #005f89;
+    padding: 1rem;
+    display: block;
+}
+
+#nav-links a:hover {
+    color: #0093b7;
+}
+/* Nav Burger */
+#nav-toggle-button {
+    position: absolute;
+    top: 1.6rem;
+    right: 1rem;
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+#nav-toggle-button .nav-toggle-bar1 {
+    height: 3px;
+    width: 100%;
+    background-color: #005f89;
+    background-color: 10px;
+    transition: .5s ease-in-out;
+}
+
+#nav-toggle-button .nav-toggle-bar2 {
+    height: 3px;
+    width: 100%;
+    background-color: #005f89;
+    background-color: 10px;
+    transition: .5s ease;
+}
+
+#nav-toggle-button .nav-toggle-bar3 {
+    height: 3px;
+    width: 100%;
+    background-color: #005f89;
+    background-color: 10px;
+    transition: .5s ease-in-out;
+}
+
+@media (max-width: 600px) {
+
+    #nav-logo {
+        position: relative;
+        top: 0;
+        right: 225px;
+        transform: translateX(452%);
+        transition: transform 1s ease-out;
+    }
+
+    #nav-toggle-button {
+        display: flex;
+    }
+
+    #nav-links {
+        display: none;
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #nav-links li {
+        text-align: center;
+    }
+
+    #nav-links li a {
+        padding: .5rem 1rem;
+    }
+}
+
+/* animation burger */
+
+.open-hamburger .nav-toggle-bar2{
+    opacity: 0;
+}
+
+.open-hamburger .nav-toggle-bar1{
+    transform: rotate(45deg) translateY(13px);
+}
+
+.open-hamburger .nav-toggle-bar3{
+    transform: rotate(-45deg) translateY(-13px);
+}
+
+/* Fin nav*/
+
