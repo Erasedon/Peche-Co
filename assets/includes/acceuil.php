@@ -5,7 +5,7 @@
                     <img id= "taille" src="assets/img/petit.jpg" alt="">
               </div>
               <div  class="newscontainer">
-                    <h2 class=titre>Newsletters</h2> 
+                    <p class=titre>Newsletters</p> 
                     <p class="justtext">
                           En attendant les jours de pêche, ne loupez pas les dernières actus, inscrivez vous à notre newsletter.
                          </p>
