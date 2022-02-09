@@ -1,3 +1,58 @@
+
+/* Code Yanis*/
+.position{
+    display: flex;
+    justify-content: center;
+}
+
+.dispositionimgtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10%;
+    background-color:#ecf0f1;
+}
+
+#taille{
+    width: 100%;
+    height:100%;   
+    object-fit: cover;
+}
+
+.newscontainer{
+    display: flex;
+    flex-direction: column;
+    background-color:#014753;
+    color: whitesmoke;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+
+}
+.containerimgtext{
+    width: 30%;
+
+}
+
+.titre{
+    font-size: 45px;
+}
+.justtext{
+        text-align: center; 
+        font-size: 30px;
+        margin-bottom:60px;
+    }
+
+.inputs{
+    width: 75%;
+    border-radius: 7px;
+    height: 25px;
+
+}
+.bouton-section1{
+
+ /* Julien */
 .div_paralax{
     width: 100%;
     height: 400px;
@@ -378,6 +433,7 @@ h1 h2 h3{
     border: 1px solid #0093b7;
     font-size: 15px;
     color:#fff;
+    margin-top: 10px;
     font-weight: 600;
   }
 
@@ -385,6 +441,32 @@ h1 h2 h3{
       background-color: #0093b7  ;
       color: #fff;
   }
+
+@media (max-width:800px ) {
+    .dispositionimgtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0%;
+        background-color:#ecf0f1;
+    }
+  .newscontainer{
+        display: flex;
+        flex-direction: column;
+        background-color: #014753;
+        color: whitesmoke;
+        width: 90%; 
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+    .containerimgtext{
+        width: 100%;
+    }
+}
+
+/*Code Yanis*/
+
   @media screen and (max-width:600px){
     #section1 p{
       text-align: center;
@@ -525,4 +607,3 @@ h1 h2 h3{
 }
 
 /* Fin nav*/
-
