@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/eaf2c4b5d9.js" crossorigin="anonymous"></script>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-    </style> 
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@300&display=swap');
-    </style> 
-    <title>Document</title>
-</head>
-<body>
     <div id="section1">
         <div class="quisommesnous">
             <h1>Qui sommes-nous ?</h1>
@@ -26,4 +9,3 @@
         </div>
         <button class="bouton-section1">Voir plus</button>
     </div>
-</body>
