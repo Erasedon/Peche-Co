@@ -1,0 +1,70 @@
+/* Code Yanis*/
+.position{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.dispositionimgtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10%;
+    background-color:#ecf0f1;
+}
+
+#taille{
+    width: 100%;
+    height:100%;   
+    object-fit: cover;
+}
+
+.newscontainer{
+    display: flex;
+    flex-direction: column;
+    background-color:#014753;
+    color: whitesmoke;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+
+}
+.containerimgtext{
+    width: 30%;
+
+}
+
+.justtext{
+        text-align: center; 
+        font-size: 35px ;
+    }
+
+.inputs{
+    padding: 10px 400px 5px 10px;
+}
+.bouton-section1{
+    width: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    background-color: #005f89 ;
+    border-radius: 7px;
+    border: 1px solid #0093b7;
+    font-size: 15px;
+    color:#fff;
+    font-weight: 400 ;
+  }
+
+  .bouton-section1:hover{
+      background-color: #a0c5cf  ;
+      color: #fff;
+  }
+/*
+@media screen and ( ) {
+    
+}*/
+
+/*Code Yanis*/
