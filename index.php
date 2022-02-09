@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Peche&Co</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); </style> 
+    <style> @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@300&display=swap'); </style> 
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php include("assets/includes/navbar.php"); ?>
