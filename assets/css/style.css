@@ -1,6 +1,11 @@
+*{
+  scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding:0;
+    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
 h1 h2 h3{
@@ -18,7 +23,7 @@ h1 h2 h3{
     flex-direction: row;
     justify-content: center;
     padding: 10%;
-    background-color:#ecf0f1;
+    background-color:#ffffff;
 }
 
 #taille{
@@ -96,7 +101,8 @@ h1 h2 h3{
 
 #slider{
     overflow: hidden;
-    height: 75vh;
+    height: 70vh;
+    position: relative;
 }
 
 .slider_container{
@@ -104,9 +110,7 @@ h1 h2 h3{
     background-color: rgba(102, 51, 153, 0);
     display: flex;
     scroll-behavior:smooth;
-}
-.slider_container::-webkit-scrollbar{
-    width: 0;
+    overflow-x: hidden;
 }
 
 .div_slider_text{
@@ -433,6 +437,7 @@ h1 h2 h3{
     color:#fff;
     margin-top: 10px;
     font-weight: 600;
+    cursor: pointer;
   }
 
   .bouton-section1:hover{
@@ -489,6 +494,7 @@ h1 h2 h3{
     height: 50px;
     width: auto;
     margin: .5rem;
+    margin-left: 30px;
     position: relative;
     top: 0;
     transform: translateX(0%);
@@ -498,6 +504,7 @@ h1 h2 h3{
 #nav-links ul {
     margin: 0;
     padding: 0;
+    margin-right: 30px;
     display: flex;
 }
 
@@ -559,7 +566,7 @@ h1 h2 h3{
         position: relative;
         top: 0;
         right: 225px;
-        transform: translateX(452%);
+        transform: translateX(405%);
         transition: transform 1s ease-out;
     }
 
@@ -605,3 +612,19 @@ h1 h2 h3{
 }
 
 /* Fin nav*/
+
+
+
+#slider_to_img{
+    
+  height: 70vh;
+  overflow: hidden;
+  display: none;
+}
+
+.slider_to_img_bg{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+

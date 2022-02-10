@@ -8,9 +8,9 @@
         <div id="nav-links">
             <ul>
                 <li><a href="#">Accueil</a></li>
-                <li><a href="#">Notre Histoire</a></li>
-                <li><a href="#">Nos Produits</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#section1">Notre Histoire</a></li>
+                <li><a href="#4">Nos Produits</a></li>
+                <li><a href="#section5">Contact</a></li>
             </ul>
         </div>
 </nav>

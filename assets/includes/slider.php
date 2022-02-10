@@ -18,3 +18,12 @@
 
 </div>
 
+<div class="slider_to_img" id="slider_to_img">
+    
+<img class="slider_to_img_bg" src="assets/img/slider_img1.png"/>
+
+      <div class="div_slider_text" id="div_slider_text">
+          <h2>Pêche&Co</h2>
+      </div>
+      
+</div>
