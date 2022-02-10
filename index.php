@@ -17,6 +17,16 @@
     <?php include("assets/includes/parallax.php"); ?>
     <?php include("assets/includes/acceuil.php"); ?>
     <?php include("assets/includes/footer.php"); ?>
+    <div class="container_backtotop" id="container_backtotop">
+        <div class = "btt_ombre"></div>
+        <div class = "btt_bg">
+                 <div class = "btt_carre_chargement" id="carre_load"></div>
+        </div>
+        <div class = "btt_front"></div>
+        <a href="#" class="btt_a"></a>
+        <img src="assets/img/fleche.png" class="btt_fleche">
+    </div>
+
     <?php include("assets/includes/scriptjs.php"); ?>
     <script src="assets/js/navbar.js"></script>
 </body>

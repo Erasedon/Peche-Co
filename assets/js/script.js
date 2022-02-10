@@ -6,6 +6,28 @@ var slider_page = 1;
 const slider_leftarrow = document.getElementById("slider_leftarrow")
 const slider_rightarrow = document.getElementById("slider_rightarrow")
 
+const container_backtotop = document.getElementById("container_backtotop");
+const btt_carre_load = document.getElementById("carre_load");
+
+window.onscroll = function(){
+
+  var h = document.documentElement, 
+    b = document.body,
+    st = 'scrollTop',
+    sh = 'scrollHeight';
+
+  var percent = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+  btt_carre_load.style.marginTop = -(100-percent)+"%"
+
+  if (percent<20){
+    container_backtotop.style.opacity = 0;
+  }else{
+    var opacity =  ((percent-20)/100)*5;
+    if (opacity>1){opacity=1}
+    container_backtotop.style.opacity = String(opacity);
+  }
+}
+
 var sliding = true;
 
 var slider_img0 = document.getElementById("slider_img0");
@@ -160,10 +182,12 @@ function resizing(){
     slider.style.display = "block";
     slider_to_img.style.display = "none";
     mainDivParallax.style.height = "400px";
+    container_backtotop.style.display = "block"
   }else{
     slider.style.display = "none";
     slider_to_img.style.display = "block";
     mainDivParallax.style.height = "0";
+    container_backtotop.style.display = "none"
   }
 }
 
