@@ -23,7 +23,7 @@
 <img class="slider_to_img_bg" src="assets/img/slider_img1.png"/>
 
       <div class="div_slider_textstatic" id="div_slider_textstatic">
-          <h2>Pêche&Co</h2>
+          <h2 class="pncotext">Pêche&Co</h2>
       </div>
       
 </div>
